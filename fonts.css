@@ -1,0 +1,28 @@
+/* fonts.css */
+@font-face {
+    font-family: 'NuberNext';
+    src: url('./fonts/NuberNextCompressed-Heavy-BF63c8a09d47a53.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mona Sans';
+    src: url('./fonts/Mona-Sans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mona Sans';
+    src: url('./fonts/Mona-Sans-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mona Sans';
+    src: url('./fonts/Mona-Sans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
