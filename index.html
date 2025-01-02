@@ -10,7 +10,34 @@
     </head>
     <body class="bg-white font-monasans ml-6 mr-5 mt-4">
 
-        <section id="top-news" class="block">
+        <!-- Header section -->
+
+        <header class="border-b-[4px] border-black -ml-6 -mr-5">
+            <div class="ml-6 mr-5 mb-4"> 
+                <nav class="flex justify-between items-center">
+                    <div id="tmb-logo" class="flex items-center">
+                        <img src="images/tmb_logo_black.png" alt="The Motherboard Logo - black">
+                        <img src="images/the Motherboard copy.png" alt="The Motherboard wordmark" class="ml-[10px]">
+                    </div>
+                    <div id="menu" class="-mr-[300px]">
+                        <ul id="news-types" class="flex items-center space-x-7 font-monasans font-semibold text-[17px]">
+                            <li><a href="#"> NEWS </a></li>
+                            <li><a href="#"> EDITORIAL </a></li>
+                            <li><a href="#"> FEATURE </a></li>
+                            <li><a href="#"> SPORTS </a></li>
+                            <li><a href="#"> MORE &nbsp; <img src="images/icon _chevron bottom_.png" alt="arrow down" class="inline-block"> </a></li>
+                        </ul>
+                    </div>
+                    <div id="search-icon">
+                        <img src="images/search.png" alt="search icon">
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Top News section -->
+
+        <section id="top-news" class="block mt-[35px]">
 
             <div class="news-label mb-[20px]">
                 <div id="top-news-bar" class="w-[3.5px] h-[38px] bg-custom-blue inline-block align-middle"></div>
@@ -104,5 +131,215 @@
             </div>
         </section>
 
+        <!-- Editors' Picks section -->
+
+        <section id="editors-picks" class="block mt-[35px] mb-[35px]"> 
+            <div class="news-label mb-[20px]">
+                <div id="editors-picks-bar" class="w-[3.5px] h-[38px] bg-custom-yellow inline-block align-middle"></div>
+                <p class="hover:text-custom-yellow transition duration-700 ease-in-out inline-block align-middle font-nubernext font-bold text-[34px] ml-[6px]"> Editors' Picks </p>
+            </div>
+
+            <div id="editors-picks-news-items-container" class="flex justify-between items-start gap-[22px] mr-[9px]">
+                <div id="editors-picks-1" class="w-[25%]">
+                    <a href="#">
+                        <img src="images/image_placeholder.png" class="w-full h-full object-cover">
+                        <p class="font-semibold mt-3"> Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor </p>
+                    </a>
+                </div>
+                <div id="editors-picks-2" class="w-[25%]">
+                    <a href="#">
+                        <img src="images/image_placeholder.png" class="w-full h-full object-cover">
+                        <p class="font-semibold mt-3"> Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor </p>
+                    </a>    
+                </div>
+                <div id="editors-picks-3" class="w-[25%]">
+                    <a href="#">
+                        <img src="images/image_placeholder.png" class="w-full h-full object-cover">
+                        <p class="font-semibold mt-3"> Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor </p>
+                    </a>
+                </div>
+                <div id="editors-picks-4" class="w-[25%]">
+                    <a href="#">
+                        <img src="images/image_placeholder.png" class="w-full h-full object-cover">
+                        <p class="font-semibold mt-3"> Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor </p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3rd Section -->
+
+        <section id="section-3" class="flex justify-between items-start gap-[22px] mr-[9px]">
+
+            <!-- Sports Section -->
+
+            <section id="sports-section" class="block w-[33%]">
+                <div class="news-label mb-[20px]">
+                    <div id="sports-bar" class="w-[3.5px] h-[38px] bg-custom-dark-red inline-block align-middle"></div>
+                    <p class="hover:text-custom-dark-red transition duration-700 ease-in-out inline-block align-middle font-nubernext font-bold text-[34px] ml-[6px]"> Sports </p>
+                </div> 
+
+                <div id="sports-main-news-item">
+                    <a href="#">
+                        <img src="images/image_placeholder.png" class="w-full h-full object-cover">
+                        <p class="font-semibold mt-3 text-[18px]"> Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor </p>
+                    </a>
+                </div>
+
+                <div class="sports-minor-news-item">
+                    <hr class="border-t-[1.5px] border-black mt-[15px] mb-[10px]">
+                    <a href="#">
+                        <p class="sports-minor-news-item-headline"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do </p>
+                    </a>
+                </div>
+
+                <div class="sports-minor-news-item">
+                    <hr class="border-t-[1.5px] border-black mt-[10px] mb-[10px]">
+                    <a href="#">
+                        <p class="sports-minor-news-item-headline"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    </a>
+                </div>
+
+                <div class="sports-minor-news-item">
+                    <hr class="border-t-[1.5px] border-black mt-[10px] mb-[10px]">
+                    <a href="#">
+                        <p class="sports-minor-news-item-headline"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et. </p>
+                    </a>
+                </div>
+            </section>
+
+            <!-- Feature Section -->
+
+            <section id="feature-section" class="block w-[33%]">
+                <div class="news-label mb-[20px]">
+                    <div id="feature-bar" class="w-[3.5px] h-[38px] bg-black inline-block align-middle"></div>
+                    <p class="inline-block align-middle font-nubernext font-bold text-[34px] ml-[6px]"> Feature </p>
+                </div> 
+
+                <div id="feature-main-news-item">
+                    <a href="#">
+                        <img src="images/image_placeholder.png" class="w-full h-full object-cover">
+                        <p class="font-semibold mt-3 text-[18px]"> Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor </p>
+                    </a>
+                </div>
+
+                <div class="feature-minor-news-item">
+                    <hr class="border-t-[1.5px] border-black mt-[15px] mb-[10px]">
+                    <a href="#">
+                        <p class="feature-minor-news-item-headline"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do </p>
+                    </a>
+                </div>
+
+                <div class="feature-minor-news-item">
+                    <hr class="border-t-[1.5px] border-black mt-[10px] mb-[10px]">
+                    <a href="#">
+                        <p class="feature-minor-news-item-headline"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et. </p>
+                    </a>
+                </div>
+
+                <div class="feature-minor-news-item">
+                    <hr class="border-t-[1.5px] border-black mt-[10px] mb-[10px]">
+                    <a href="#">
+                        <p class="feature-minor-news-item-headline"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et. </p>
+                    </a>
+                </div>
+            </section>
+
+            <!-- Photos Section -->
+
+            <section id="photos-section" class="block w-[33%]">
+                <div class="news-label mb-[20px]">
+                    <div id="photos-bar" class="w-[3.5px] h-[38px] bg-black inline-block align-middle"></div>
+                    <p class="inline-block align-middle font-nubernext font-bold text-[34px] ml-[6px]"> Latest Photos </p>
+                </div> 
+
+                <div id="photos-main-news-item">
+                    <img src="images/image_placeholder.png" class="w-full h-full object-cover">
+                    <p class="font-semibold mt-3 text-[18px]"> Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor </p>
+                </div>
+
+                <div class="photos-gallery grid grid-cols-2 gap-3 mt-[15px]">
+                    <img src="images/image_placeholder.png" class="w-full h-full object-cover">
+                    <img src="images/image_placeholder.png" class="w-full h-full object-cover">
+                    <img src="images/image_placeholder.png" class="w-full h-full object-cover">
+                    <img src="images/image_placeholder.png" class="w-full h-full object-cover">
+                </div>
+            </section>
+        </section>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <!-- Footer Section -->
+
+        <footer class="bg-custom-grey -ml-6 -mr-5 pt-[40px] pb-[30px]">
+            <div class="ml-[70px] mr-12 flex flex-col md:flex-row justify-between items-center md:items-start space-y-4 md:space-y-0 md:space-x-4">
+                <div id="footer-logo" class="flex flex-row md:flex-col items-center md:items-start space-x-4 md:space-x-0 md:space-y-4">
+                    <img src="images/tmb_logo.png" alt="The Motherboard Logo" class="h-[110px]">
+                    <img src="images/Motherboard Text Logo.png" alt="The Motherboard wordmark">
+                </div>
+        
+                <div id="footer-about" class="w-[200px]">
+                    <ul id="footer-about-list" class="space-y-0">
+                        <li class="font-bold">About The Motherboard</li>
+                        <li class="text-[13px]">About Us</li>
+                        <li class="text-[13px]">The Editorial Board</li>
+                        <li class="text-[13px]">Contact Us</li>
+                        <li class="text-[13px]">Privacy Notice</li>
+                        <li class="text-[13px]">URL Policy</li>
+                        <li class="text-[13px]">User Policy</li>
+                    </ul>
+                </div>
+        
+                <div id="footer-categories" class="grid grid-cols-2 gap-8">
+                    <div id="footer-news-category" class="w-[125px]">
+                        <ul id="footer-news-category-list" class="space-y-0">
+                            <li class="font-bold">News</li>
+                            <li class="text-[13px]">Institute News</li>
+                            <li class="text-[13px]">College News</li>
+                            <li class="text-[13px]">Student Buzz</li>
+                            <li class="text-[13px]">CCS Innovations</li>
+                        </ul>
+                    </div>
+        
+                    <div id="footer-editorial-category" class="w-[125px]">
+                        <ul id="footer-editorial-category-list" class="space-y-0">
+                            <li class="font-bold">Editorial</li>
+                            <li class="text-[13px]">Latest Buzz</li>
+                            <li class="text-[13px]">Campus Archives</li>
+                        </ul>
+                    </div>
+        
+                    <div id="footer-sports-category" class="w-[125px]">
+                        <ul id="footer-sports-category-list" class="space-y-0">
+                            <li class="font-bold">Sports</li>
+                            <li class="text-[13px]">Wolf Pack</li>
+                        </ul>
+                    </div>
+        
+                    <div id="footer-feature-category" class="w-[125px]">
+                        <ul id="footer-feature-category-list" class="space-y-0">
+                            <li class="font-bold">Feature</li>
+                            <li class="text-[13px]">Faculty Stories</li>
+                            <li class="text-[13px]">Student Achievements</li>
+                        </ul>
+                    </div>
+                </div>
+        
+                <div id="follow" class="relative flex flex-col items-start space-y-2 mt-[75px] md:mt-0 md:ml-4">
+                    <p class="text-[13px] md:ml-[-75px] md:mt-[100px]">FOLLOW THE MOTHERBOARD</p>
+                    <div id="social-media-logos" class="flex space-x-8 md:ml-[-75px]">
+                        <img src="images/icon_instagram_.png" alt="instagram icon" class="h-6">
+                        <img src="images/icon_instagram_.png" alt="instagram icon" class="h-6">
+                        <img src="images/icon_instagram_.png" alt="instagram icon" class="h-6">
+                        <img src="images/icon_instagram_.png" alt="instagram icon" class="h-6">
+                    </div>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
